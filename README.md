@@ -27,6 +27,15 @@ $ sudo apt-get install build-essential
 
 ### Java
 
+If you are using Ubuntu 22, install directly from the command:
+```bash
+$ apt install default-jre
+$ java --version
+openjdk 11.0.22 2024-01-16
+OpenJDK Runtime Environment (build 11.0.22+7-post-Ubuntu-0ubuntu222.04.1)
+OpenJDK 64-Bit Server VM (build 11.0.22+7-post-Ubuntu-0ubuntu222.04.1, mixed mode, sharing)
+```
+
 If your system has no Java version installed, make sure you install the version 8 (or higher). You can do that quickly with [SDKMAN!](https://sdkman.io/), but first be sure you're on your home directory with:
 
 ```bash
